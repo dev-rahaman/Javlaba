@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./frontend/style/navbar.css" />
+    <title>Responsive Navbar</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <div class="navbar">
+      <div class="logo">
+        <a href="/"> <img src="./frontend/Images/logo.png" alt="Logo" /></a>
+      </div>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="#">Projects</a>
+        <a href="./frontend/members/sabrina.html" id="sabrinaLink">Sabrina</a>
+        <a href="./frontend/members/deigo.html">Diego</a>
+        <a href="./frontend/members/max.html">Max</a>
+        <div id="loginButtons">
+          <!-- login and log out buttons will be dynamically added here based on user's logged in or logged out -->
+        </div>
+      </div>
+      <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+    </div>
+    <!-- navbar end  -->
+
+    <!-- main start -->
+    <div class="container">
+      <div class="team-section">
+        <div class="team-image">
+          <a href="#"
+            ><img src="image1-placeholder.jpg" alt="Team Image 1"
+          /></a>
+        </div>
+        <div class="team-content">
+          <div class="team-name">
+            <h1>Team Dohickey</h1>
+          </div>
+          <div class="team-description">
+            <p>This team is comprised of Electrical Engineering majors.</p>
+          </div>
+        </div>
+      </div>
+      <div class="team-heading">
+        <h2>Meet the Team</h2>
+      </div>
+      <div class="members">
+        <!-- Member 1 -->
+        <div class="member">
+          <a href="#"
+            ><img src="image2-placeholder.jpg" alt="Team Member Image 2"
+          /></a>
+          <div class="member-info">
+            <h3>Sabrina</h3>
+            <p>Major: Electrical Engineering</p>
+            <p>Focus: Project Management</p>
+            <p>Skills: C++, Data Analysis</p>
+            <p>Interests: Alternative Fitness</p>
+            <p class="email">Email:</p>
+          </div>
+        </div>
+        <!-- Member 2 -->
+        <div class="member">
+          <a href="#"
+            ><img src="image3-placeholder.jpg" alt="Team Member Image 3"
+          /></a>
+          <div class="member-info">
+            <h3>Name</h3>
+            <p>Major: Electrical Engineering</p>
+            <p>Focus: Power Systems</p>
+            <p>Skills: Circuit Design</p>
+            <p>Interests: Welding, Bikes</p>
+            <p class="email">Email:</p>
+          </div>
+        </div>
+        <!-- Member 3 -->
+        <div class="member">
+          <a href="#"
+            ><img src="image4-placeholder.jpg" alt="Team Member Image 4"
+          /></a>
+          <div class="member-info">
+            <h3>Name</h3>
+            <p>Major: Electrical Engineering</p>
+            <p>Focus: Robotics</p>
+            <p>Skills: Python</p>
+            <p>Interests: Robots</p>
+            <p class="email">Email:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

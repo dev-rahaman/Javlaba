@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* banner start  */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-side-banner h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.left-side-banner p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.team-banner {
+  width: 500px;
+}
+/* banner end  */
+
+/* team start  */
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+
+.cart img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.cart .details {
+  padding: 15px;
+}
+
+.cart h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.cart p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #777;
+}
+/* team end  */
+
+/*  common styles start */
+.title {
+  padding: 50px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-font {
+  font-weight: bold;
+}
+
+/*  common styles end */
+
+/* main start  */
+.container {
+  padding: 20px;
+}
+
+.team-section {
+  display: flex;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.team-image img {
+  max-width: 400px; /* Adjusted image size */
+  margin-right: 20px; /* Spacing between image and text */
+  border: 3px solid #333; /* Border for images */
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+.team-content {
+  margin-left: 20px;
+}
+
+.team-heading {
+  background-color: #9ecbffa1;
+  padding: 20px 0;
+  color: #000;
+  text-align: center;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+  background-color: #9ecbffa1;
+  padding-bottom: 20px;
+}
+
+.member {
+  border: 2px solid #ffffff; /* White border for contrast */
+  border-radius: 15px; /* Rounded corners */
+  padding: 10px;
+  width: calc(33% - 20px); /* Three items per row, accounting for margin */
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+  background-color: #fff; /* White background for the cards */
+  text-align: center; /* Centering text */
+}
+
+.member img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px; /* Rounded corners for images */
+  border: 3px solid #333; /* Border for images */
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+.member-info {
+  text-align: left;
+  padding: 5px;
+}
+
+.member-info h3 {
+  margin-top: 5px;
+}
+
+.member-info p {
+  margin: 5px 0;
+}
+
+.member-info .email {
+  word-break: break-all; /* Prevents long email addresses from overflowing */
+}
