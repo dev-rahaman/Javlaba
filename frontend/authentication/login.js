@@ -14,7 +14,7 @@ function submitLoginForm() {
   };
 
   // please update the url as your live server url
-  fetch("https://49kvttxyfi.execute-api.us-east-2.amazonaws.com/dev/login", {
+  fetch("https://javlaba-server-on-vercel.vercel.app/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

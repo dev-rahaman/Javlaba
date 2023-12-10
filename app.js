@@ -14,7 +14,7 @@ if (accountStatus === "logged") {
   logoutButton.addEventListener("click", function () {
     localStorage.removeItem("account");
     window.location.href =
-      "https://dev7492.d31kuchmw7357v.amplifyapp.com/frontend/authentication/login.html";
+      "https://dev-rahaman.github.io/Javlaba/frontend/authentication/login.html";
   });
   loginButtonsContainer.appendChild(logoutButton);
 
@@ -26,7 +26,7 @@ if (accountStatus === "logged") {
   loginButton.className = "loginButton";
   loginButton.addEventListener("click", function () {
     window.location.href =
-      "https://dev7492.d31kuchmw7357v.amplifyapp.com/frontend/authentication/login.html";
+      "https://dev-rahaman.github.io/Javlaba/frontend/authentication/login.html";
   });
   loginButtonsContainer.appendChild(loginButton);
 
