@@ -114,13 +114,14 @@
   justify-content: space-around;
   background-color: #9ecbffa1;
   padding-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .member {
   border: 2px solid #ffffff; /* White border for contrast */
   border-radius: 15px; /* Rounded corners */
   padding: 10px;
-  width: calc(33% - 20px); /* Three items per row, accounting for margin */
+  width: 400px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
   background-color: #fff; /* White background for the cards */
@@ -129,7 +130,7 @@
 
 .member img {
   width: 100%;
-  height: auto;
+  height: 300px;
   border-radius: 15px; /* Rounded corners for images */
   border: 3px solid #333; /* Border for images */
   border-radius: 10px; /* Rounded corners for images */

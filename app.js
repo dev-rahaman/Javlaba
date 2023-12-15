@@ -35,6 +35,6 @@ if (accountStatus === "logged") {
     event.preventDefault();
     alert("You need to log in to access this page.");
     window.location.href =
-      "https://dev7492.d31kuchmw7357v.amplifyapp.com/frontend/authentication/login.html";
+      "https://dev-rahaman.github.io/Javlaba/frontend/authentication/login.html";
   });
 }
